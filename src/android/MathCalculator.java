@@ -1,4 +1,4 @@
-package cordova-plugin-mathcalculator;
+package cordova.plugin.mathcalculator;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -26,7 +26,7 @@ public class MathCalculator extends CordovaPlugin {
             this.substract(args, callbackContext);
             return true;
         }
-        
+
         return false;
     }
 
